@@ -32,7 +32,7 @@ goto menu
 :reboot_install
 echo.
 echo Rebooting and installing updates...
-shutdown.exe /r /t 60 /c "Rebooting to install updates" /f /d p:2:17
+shutdown.exe /r /t 00 /c "Rebooting to install updates" /f /d p:2:17
 echo.
 pause
 goto menu
